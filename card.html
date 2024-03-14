@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/footer.css">
+    <link rel="stylesheet" href="./assets/header.css">
+    <link rel="stylesheet" href="./assets/card.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>card</title>
+    <script defer src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="./js/card.js"></script>
+    <script defer src="/js/index.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="burger-menu">
+                <img class="burger-menu-img" src="./img/burger-menu.png" alt="menu">
+            </div>
+            <div class="burger-close"> <img class="burger-menu-img" src="./img/signs/close burg.svg" alt="menu"></div>
+            <div class="logo">
+                <a href="/index.html"> <img src="./img/logo.png" alt="logo"></a>
+            </div>
+            <ul class="container__pages">
+                <div class="container__pages__wrap">
+                    <a href="/catalogue.html" class="btn">Ноутбуки</a>
+                    <div class="dropdown">
+                        <div class="btn_popper">
+                            <img src="./img/signs/nav_arrow.svg" alt="">
+                        </div>
+                        <div class="dropdown-content">
+                            <a href="/card.html">VivoBook</a>
+                            <a href="/card.html">Zenbook</a>
+                            <a href="/card.html">ExpertBook</a>
+                            <a href="/card.html">ProArt StudioBook</a>
+                            <a href="/card.html">TUF</a>
+                            <a href="/card.html">ROG</a>
+                        </div>
+                    </div>
+                </div>
+                <li class="pages"><a href="/aboutcompany.html">О бренде</a>
+                </li>
+                <li class="pages"><a href="/service.html">Сервисный центр</a>
+                </li>
+                <li class="pages"><a href="/shops.html">Где купить</a>
+                </li>
+            </ul>
+            <div class="wr-search">
+                <div class="search">
+                    <img class="search__img" src="./img/search.svg" alt="search">
+                </div>
+
+            </div>
+        </div>
+        <div class="wrapper-form_search">
+            <form class="search-sign">
+                <div class="wr-search_inp">
+                    <input id="search-input" class="search-sign_inp" type="search" placeholder="Поиск">
+                    <img class="search-loop" src="./img/signs/search_wh.svg" alt="">
+                    <img class="close-search" src="./img/signs/х(1).svg" alt="">
+                </div>
+            </form>
+            <ul class="search-list">
+                <li class="search-list_item">Товары
+                    <a class="search-list_item_name" href="/card.html">Asus Zenbook Pro Duo UX581</a>
+                    <a class="search-list_item_name" href="/card.html">Asus Zenbook 13 UX325</a>
+                    <a class="search-list_item_name" href="/card.html">Asus Zenbook 14 Flip OLED (UX1257)</a>
+                </li>
+                <li class="search-list_item">Другие товары
+                    <a class="search-list_item_name" href="/card.html">VivoBook</a>
+                    <a class="search-list_item_name" href="/card.html">ZenBook</a>
+                    <a class="search-list_item_name" href="/card.html">ExpertBook</a>
+                    <a class="search-list_item_name" href="/card.html">ProArt StudioBook</a>
+                    <a class="search-list_item_name" href="/card.html">TUF</a>
+                    <a class="search-list_item_name" href="/card.html">ROG</a>
+                </li>
+                <li class="search-list_item_wrap"> <a class="search-list_item_link" href="/card.html">Перейти в
+                        каталог</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="title__wrapper">
+                <div class="title__wrapper__common">
+                    <li class="title__model"><a href="/index.html">Главная</a> </li>
+                    <img class="title__model_img" src="./img/card/free-icon-angle-double-small-right-8591712 1.svg"
+                        alt="arrow">
+                </div>
+                <div class="title__wrapper__common">
+                    <li class="title__model"><a href="/catalogue.html">Каталог</a> </li>
+                    <img class="title__model_img" src="./img/card/free-icon-angle-double-small-right-8591712 1.svg"
+                        alt="arrow">
+                </div>
+                <div class="title__wrapper__common">
+                    <li class="title__model"><a href="/categories.html">Zenbook</a> </li>
+                    <img class="title__model_img" src="./img/card/free-icon-angle-double-small-right-8591712 1.svg"
+                        alt="arrow">
+                </div>
+                <div class="title__wrapper__common">
+                    <li class="title__model" id="active"><a href="#">Asus Zenbook Pro 16X QLED (UX7602)</a></li>
+                </div>
+            </div>
+            <div class="wrapper__card">
+                <div class="wr_swiper">
+                    <div class="wr_cont">
+                        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+                            class="swiper mySwiper2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide card__img">
+                                    <img class="card__img__proart" src="./img/card/1.svg" />
+                                </div>
+                                <div class="swiper-slide card__img">
+                                    <img class="card__img__proart" src="./img/card/first_slide.svg" />
+                                </div>
+                                <div class="swiper-slide card__img">
+                                    <img class="card__img__proart" src="./img/card/third_slider.svg" />
+                                </div>
+                                <div class="swiper-slide card__img">
+                                    <img class="card__img__proart" src="./img/card/second_slider.svg" />
+                                </div>
+                                <div class="swiper-slide card__img">
+                                    <img class="card__img__proart" src="./img/card/fourth__slide.svg" />
+                                </div>
+                            </div>
+                        </div>
+                        <div thumbsSlider="" class="swiper mySwiper">
+
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide correct">
+                                    <img src="./img/card/1.svg" />
+                                </div>
+                                <div class="swiper-slide correct">
+                                    <img src="./img/card/third_slider.svg" />
+                                </div>
+                                <div class="swiper-slide correct">
+                                    <img src="./img/card/second_slider.svg" />
+                                </div>
+                                <div class="swiper-slide correct">
+                                    <img src="./img/card/fourth__slide.svg" />
+                                </div>
+                                <div class="swiper-button-next"> </div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_description">
+                        <h4>Asus Zenbook Pro 16X QLED (UX7602)</h4>
+                        <ul>
+                            <li class="wrapper__card_description">Серия: UX760;</li>
+                            <li class="wrapper__card_description">Разрешение экрана: HD+ 16:10 (2560 x 1600);</li>
+                            <li class="wrapper__card_description">Диагональ экрана: 24’ ;</li>
+                            <li class="wrapper__card_description">Сенсорный экран: да ;</li>
+                            <li class="wrapper__card_description">Процессор: NVIDIA® GeForce RTX™ 4070 Laptop GPU;
+                            </li>
+                            <li class="wrapper__card_description">Видеокарта: 13th Gen Intel® Core™ i9-13900H</li>
+                            <li class="wrapper__card_description">Объем оперативной памяти: 32 GB;</li>
+                            <li class="wrapper__card_description">Объем накопителя: 265 GB;</li>
+                            <li class="wrapper__card_description">Дата выхода на рынок: 2020 год.</li>
+                        </ul>
+                        <div class="choice-btn">
+                            <button class="choice">Выберите магазин <img class="arrow_down"
+                                    src="./img/card/arrow_down.png" alt=""></button>
+                            <ul class="menu-element_nav">
+                                <li class="menu-element"><img src="./img/card/21Vek 1(1).png" alt=""></li>
+                                <li class="menu-element"><img src="./img/card/sila.png" alt=""></li>
+                                <li class="menu-element"><img src="./img/card/technics.png" alt=""></li>
+                                <li class="menu-element"><img src="./img/card/a1.png" alt=""></li>
+                                <li class="menu-element"><img src="./img/card/7745.png" alt=""></li>
+                                <li class="menu-element"><img src="./img/card/5element.png" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <p class="main_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                    Ipsum
+                    has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                    galley
+                    of type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                    also
+                    the leap into electronic typesetting, remaining essentially unchanged.</p>
+                <p class="main_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                    Ipsum
+                    has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                    galley
+                    of type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                    also
+                    the leap into electronic typesetting, remaining essentially unchanged.</p>
+                <p class="main_title">Рекомендуем</p>
+                <div class="main__recommend">
+                    <div class="main__img_first">
+                        <img class="main__img" src="./img/card/zenbook.png" alt="">
+                        <a href="/card.html" class="main__text_title">Asus Zenbook Pro 16X QLED
+                            (UX7602)</a>
+                    </div>
+                    <div class="main__img_first"> <img class="main__img" src="./img/card/zenbook.png" alt="">
+                        <a href="/card.html" class="main__text_title">Asus Zenbook Pro 16X QLED
+                            (UX7602)</a>
+                    </div>
+                    <div class="main__img_first"> <img class="main__img" src="./img/card/zenbook.png" alt="">
+                        <a href="/card.html" class="main__text_title">Asus Zenbook Pro 16X QLED
+                            (UX7602)</a>
+                    </div>
+                    <div class="main__img_fourth">
+                        <p class="main__text_more"> <a href="/categories.html"
+                                class="main__text_more">Смотреть все</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <nav class="footer-nav">
+            <div class="img-logo">
+                <a href="/index.html"><img src="./img/logo-white.png" alt="logo"></a>
+            </div>
+
+            <ul class="nav-list-about">
+                <div class="footer-nav-list_btn add">
+
+                    <button  class="footer-nav-list_title">Продукция</button>
+                    <ul id="footer_myDropdown_prod" class="footer-list_nav">
+                        <li class="nav-item"><a href="/card.html" class="nav-link">VivoBook</a></li>
+                        <li class="nav-item"><a href="/card.html" class="nav-link">ZenBook</a></li>
+                        <li class="nav-item"><a href="/card.html" class="nav-link">ExpertBook</a></li>
+                        <li class="nav-item"><a href="/card.html" class="nav-link">ProArt StudioBook</a>
+                        </li>
+                        <li class="nav-item"><a href="/card.html" class="nav-link">TUF</a></li>
+                        <li class="nav-item"><a href="/card.html" class="nav-link">ROG</a></li>
+                    </ul>
+            </ul>
+            </div>
+            </ul>
+            <ul class="list">
+                <button id="btn-footer-btn" class="footer-nav-list_title-btn">Продукция</button>
+                <li class="nav-item"><a href="/card.html" class="nav-link">VivoBook</a></li>
+                <li class="nav-item"><a href="/card.html" class="nav-link">ZenBook</a></li>
+                <li class="nav-item"><a href="/card.html" class="nav-link">ExpertBook</a></li>
+                <li class="nav-item"><a href="/card.html" class="nav-link">ProArt StudioBook</a>
+                </li>
+                <li class="nav-item"><a href="/card.html" class="nav-link">TUF</a></li>
+                <li class="nav-item"><a href="/card.html" class="nav-link">ROG</a></li>
+            </ul>
+            </ul>
+            <ul class="nav-list-about">
+                <div id="brand" class="footer-nav-list_btn add">
+                    <button id="btn-footer_brend" class="footer-nav-list_title">О бренде</button>
+                    <ul id="footer_myDropdown_brand" class="footer-list_nav">
+                        <li class="nav-item"><a href="/aboutcompany.html" class="nav-link">История Asus</a>
+                        </li>
+                        <li class="nav-item"><a href="/news.html" class="nav-link">Новости</a></li>
+                    </ul>
+                </div>
+            </ul>
+            <ul>
+                <button id="btn-footer-btn" class="footer-nav-list_title-btn">О бренде</button>
+                <li class="nav-item missed"><a href="/aboutcompany.html" class="nav-link">История Asus</a>
+                </li>
+                <li class="nav-item missed"><a href="/news.html" class="nav-link">Новости</a></li>
+            </ul>
+            <ul class="nav-list-service">
+                <li class="nav-item-headling"><a href="/service.html" class="nav-item-headling">Сервисные центры</a>
+                </li>
+                <li class="nav-item"><a href="/shops.html" class="nav-link">Где купить</a></li>
+
+            </ul>
+            <ul class="nav-list-about">
+                <div id="feedback" class="footer-nav-list_btn add ">
+                    <button id="btn-footer_feedback" class="footer-nav-list_title">Обратная связь</button>
+                    <ul id="footer_myDropdown_feedback" class="footer-list_nav">
+                        <div class="size_block">
+                            <label> <input class="size_block_input" type="text" id="name" name="name"
+                                    placeholder="ФИО:"> </label>
+                            <label><input class="size_block_input" type="text" id="name" name="name"
+                                    placeholder="E-mail"> </label>
+                            <label><input class="size_block_input" type="text" id="name" name="name"
+                                    placeholder="Телефон"> </label>
+                            <label><input class="size_block_input_white" type="submit" id="name" name="name"
+                                    placeholder="Отправить"> </label>
+                        </div>
+                    </ul>
+                </div>
+            </ul>
+
+
+            <div class="btn-feedback">
+                <button class="button-feedback">Обратная связь</button>
+            </div>
+        </nav>
+        <p class="rights">©ASUSTeK Computer Inc. Все права защищены</p>
+
+        <div class="box" id="box">
+            <div class="box-inner">
+            </div>
+            <form id="feedbackForm">
+                <h2 class="title">Заголовок</h2>
+                <div class="text"> <span class="modal__form__title">Спасибо за заявку!</span>
+                    <p class="modal__form__text">Наши менеджеры свяжутся с Вами в ближайшее время</p>
+                </div>
+                <div class="rows">
+                    <label for="name"></label>
+                    <input type="text" id="name" name="name" placeholder="ФИО:" required>
+                    <label for="number"></label>
+                    <input type="text" id="number" name="number" placeholder="Номер:">
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" placeholder="E-mail:">
+                    <label for="message"></label>
+                    <textarea id="message" name="message" placeholder="Комментарий:"></textarea>
+                    <button id="btn__form" type="submit">Обратная связь</button>
+                </div>
+                <div class="modal__close"></div>
+            </form>
+        </div>
+    </footer>
+</body>
+
+</html>

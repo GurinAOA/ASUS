@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/footer.css">
+    <link rel="stylesheet" href="./assets/header.css">
+    <link rel="stylesheet" href="./assets/grids.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>catalogue</title>
+    <script defer src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script defer src="/js/index.js"></script> 
+    <script defer src="./js/catalogue.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="burger-menu">
+                <img class="burger-menu-img" src="./img/burger-menu.png" alt="menu">
+            </div>
+            <div class="burger-close"> <img class="burger-menu-img" src="./img/signs/close burg.svg" alt="menu"></div>
+            <div class="logo">
+                <a href="/index.html"> <img src="./img/logo.png" alt="logo"></a>
+            </div>
+            <ul class="container__pages">
+                <div class="container__pages__wrap">
+                    <a href="/catalogue.html" class="btn">Ноутбуки</a>
+                    <div class="dropdown">
+                        <div class="btn_popper">
+                            <img src="./img/signs/nav_arrow.svg" alt="">
+                        </div>
+                        <div class="dropdown-content">
+                            <a href="/card.html">VivoBook</a>
+                            <a href="/card.html">Zenbook</a>
+                            <a href="/card.html">ExpertBook</a>
+                            <a href="/card.html">ProArt StudioBook</a>
+                            <a href="/card.html">TUF</a>
+                            <a href="/card.html">ROG</a>
+                        </div>
+                    </div>
+                </div>
+                <li class="pages"><a href="/aboutcompany.html">О бренде</a>
+                </li>
+                <li class="pages"><a href="/service.html">Сервисный центр</a>
+                </li>
+                <li class="pages"><a href="/shops.html">Где купить</a>
+                </li>
+            </ul>
+            <div class="wr-search">
+                <div class="search">
+                    <img class="search__img" src="./img/search.svg" alt="search">
+                </div>
+
+            </div>
+        </div>
+        <div class="wrapper-form_search">
+            <form class="search-sign">
+                <div class="wr-search_inp">
+                    <input id="search-input" class="search-sign_inp" type="search" placeholder="Поиск">
+                    <img class="search-loop" src="./img/signs/search_wh.svg" alt="">
+                    <img class="close-search" src="./img/signs/х(1).svg" alt="">
+                </div>
+            </form>
+            <ul class="search-list">
+                <li class="search-list_item">Товары
+                    <a class="search-list_item_name" href="/card.html">Asus Zenbook Pro Duo UX581</a>
+                    <a class="search-list_item_name" href="/card.html">Asus Zenbook 13 UX325</a>
+                    <a class="search-list_item_name" href="/card.html">Asus Zenbook 14 Flip OLED (UX1257)</a>
+                </li>
+                <li class="search-list_item">Другие товары
+                    <a class="search-list_item_name" href="/card.html">VivoBook</a>
+                    <a class="search-list_item_name" href="/card.html">ZenBook</a>
+                    <a class="search-list_item_name" href="/card.html">ExpertBook</a>
+                    <a class="search-list_item_name" href="/card.html">ProArt StudioBook</a>
+                    <a class="search-list_item_name" href="/card.html">TUF</a>
+                    <a class="search-list_item_name" href="/card.html">ROG</a>
+                </li>
+                <li class="search-list_item_wrap"> <a class="search-list_item_link" href="/card.html">Перейти в
+                        каталог</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container_main">
+            <div class="title__wrapper">
+                <div class="title__wrapper__common">
+                    <li class="title__model"><a href="/index.html">Главная</a> </li>
+                    <img class="title__model_img" src="./img/card/free-icon-angle-double-small-right-8591712 1.svg"
+                        alt="arrow">
+                </div>
+                <div class="title__wrapper__common">
+                    <li class="title__model"><a href="/catalogue.html">Каталог</a> </li>
+                    
+                </div>
+
+            </div>
+            <p class="main__buy__headling">Каталог</p>
+            <div class="main__container__catalogue">
+
+                <div class="main__catalogue__wrap active">
+                    <img src="./img/vivobook_catalogue.png" alt="vivobook">
+                    <a href="/categories.html">VivoBook</a>
+                </div>
+                <div class="main__catalogue__wrap">
+                    <img src="./img/zenbook_catalogue.png" alt="vivobook">
+                    <a href="/categories.html">Zenbook</a>
+                </div>
+                <div class="main__catalogue__wrap">
+                    <img src="./img/expertbook_mini.png" alt="vivobook">
+                    <a href="/categories.html">ExpertBook</a>
+                </div>
+                <div class="main__catalogue__wrap">
+                    <img src="./img/proart_mini.png" alt="vivobook">
+                    <a href="/categories.html">ProArt StudioBook</a>
+                </div>
+                <div class="main__catalogue__wrap">
+                    <img src="./img/tuf_mini.png" alt="vivobook">
+                    <a href="/categories.html">TUF</a>
+                </div>
+                <div class="main__catalogue__wrap">
+                    <img src="./img/rog_mini.png" alt="vivobook">
+                    <a href="/categories.html">ROG</a>
+                </div>
+            </div>
+
+            <div class="wrap__catalogue__list">
+                <div class="wrap__catalogue__list__filter">
+                    <div class="diagonal">
+                        <h5 class="compare__title">Диагональ экрана: </h5>
+
+                        <div class="wrap_btn_diagonal">
+                            <div class="form_radio_btn">
+                                <input id="radio-1" type="radio" name="radio" value="1" checked>
+                                <label for="radio-1">14’</label>
+                            </div>
+
+                            <div class="form_radio_btn">
+                                <input id="radio-2" type="radio" name="radio" value="2">
+                                <label for="radio-2">16’</label>
+                            </div>
+
+                            <div class="form_radio_btn">
+                                <input id="radio-3" type="radio" name="radio" value="3">
+                                <label for="radio-3">18’</label>
+                            </div>
+
+                            <div class="form_radio_btn">
+                                <input id="radio-4" type="radio" name="radio" value="4">
+                                <label for="radio-4">20’</label>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="first_paragraph" class="choice-btn">
+                        <button id="first_btn" class="choice" >Разрешение экрана </button>
+                        <ul id="first_myDropdown" class="menu-element_nav">
+                            <li class="menu-element_check"><input type="checkbox" name="first" id="qwe"><label
+                                    for="first"><span class="choice_wrap">HD (1366x768)</span></label>
+                            </li>
+                            <li class="menu-element_check"><label>
+                                    <input id="qwe" type="checkbox" name="screen" value="yes"><span
+                                        class="choice_wrap">Full HD (1920x1080)</span>
+                                </label></li>
+                            <li class="menu-element_check"><label>
+                                    <input id="qwe" type="checkbox" name="screen" value="yes"><span
+                                        class="choice_wrap">4K UHD (3840x2160)</span>
+                                </label></li>
+                            <li class="menu-element_check"><label>
+                                    <input id="qwe" type="checkbox" name="screen" value="yes"><span
+                                        class="choice_wrap">Другое</span>
+                                </label></li>
+                        </ul>
+                    </div>
+                    <div class="sensor">
+                        <div class="menu-element_check_sensor"><label>
+                                <input id="qwe" type="checkbox" name="screen" value="yes"><span
+                                    class="choice_wrap_sensor">Сенсорный экран</span>
+                            </label></div>
+                    </div>
+
+
+                    <div id="second_paragraph" class="choice-btn">
+                        <button id="second_btn" class="choice__processor">Процессор </button>
+                        <ul id="myDropdown" class="menu-element_nav__processor">
+                            <li class="menu-element_check__processor"><label>
+                                    <input id="qwe" type="checkbox" name="screen" value="yes"><span
+                                        class="choice_wrap">Intel® Core™ i7</span>
+                                </label></li>
+                            <li class="menu-element_check__processor"><label>
+                                    <input id="qwe" type="checkbox" name="screen" value="yes"><span
+                                        class="choice_wrap">Intel® Core™ i7</span>
+                                </label></li>
+                            <li class="menu-element_check__processor"><label>
+                                    <input id="qwe" type="checkbox" name="screen" value="yes"><span
+                                        class="choice_wrap">Intel® Core™ i7</span>
+                                </label></li>
+                            <li class="menu-element_check__processor"><label>
+                                    <input id="qwe" type="checkbox" name="screen" value="yes"><span
+                                        class="choice_wrap">Intel® Core™ i7</span>
+                                </label></li>
+                            <li class="menu-element_check__processor"><label>
+                                    <input id="qwe" type="checkbox" name="screen" value="yes"><span
+                                        class="choice_wrap">Intel® Core™ i7</span>
+                                </label></li>
+                            <li class="menu-element_check__processor"><label>
+                                    <input id="qwe" type="checkbox" name="screen" value="yes"><span
+                                        class="choice_wrap">Intel® Core™ i7</span>
+                                </label></li>
+                        </ul>
+                    </div>
+
+                    <div id="wrap__diagonal" class="diagonal">
+                        <button id="btn__diagonal" class="choice__processor">Дата выхода на рынок</button>
+                        <div id="dropdown_processor" class="menu-element_nav__processor">
+                            <div class="form_radio_btn">
+                                <input id="radio-5" type="radio" name="radio" value="5" checked>
+                                <label for="radio-5">2019</label>
+                            </div>
+
+                            <div class="form_radio_btn">
+                                <input id="radio-6" type="radio" name="radio" value="6">
+                                <label for="radio-6">2020</label>
+                            </div>
+
+                            <div class="form_radio_btn">
+                                <input id="radio-7" type="radio" name="radio" value="7">
+                                <label for="radio-7">2021</label>
+                            </div>
+
+                            <div class="form_radio_btn">
+                                <input id="radio-8" type="radio" name="radio" value="8">
+                                <label for="radio-8">2022</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="third_paragraph" class="choice-btn">
+                        <button id="third_btn" class="choice__processor">Оперативная память </button>
+                        <ul id="third_myDropdown" class="menu-element_nav">
+                            <li class="menu-element_check__processor"><label>
+                                    <input id="qwe" type="checkbox" name="screen" value="yes"><span
+                                        class="choice_wrap">8 GB</span>
+                                </label></li>
+                            <li class="menu-element_check__processor"><label>
+                                    <input id="qwe" type="checkbox" name="screen" value="yes"><span
+                                        class="choice_wrap">16 GB</span>
+                                </label></li>
+                            </label></li>
+                            <li class="menu-element_check__processor"><label>
+                                    <input id="qwe" type="checkbox" name="screen" value="yes"><span
+                                        class="choice_wrap">32 GB</span>
+                                </label></li>
+                            <li class="menu-element_check__processor"><label>
+                                    <input id="qwe" type="checkbox" name="screen" value="yes"><span
+                                        class="choice_wrap">64 GB</span>
+                                </label></li>
+                        </ul>
+                    </div>
+                    <div id="four_paragraph" class="choice-btn">
+                        <button id="four_btn" class="choice__processor">Видеокарта</button>
+                        <ul id="four_myDropdown" class="menu-element_nav">
+                            <li class="menu-element_check__processor"><label>
+                                    <input id="qwe" type="checkbox" name="screen" value="yes"><span
+                                        class="choice_wrap">NVIDIA® GeForce® MX330</span>
+                                </label></li>
+                            <li class="menu-element_check__processor"><label>
+                                    <input id="qwe" type="checkbox" name="screen" value="yes"><span
+                                        class="choice_wrap">NVIDIA® GeForce® MX330</span>
+                                </label></li>
+                            <li class="menu-element_check__processor"><label>
+                                    <input id="qwe" type="checkbox" name="screen" value="yes"><span
+                                        class="choice_wrap">NVIDIA® GeForce® MX330</span>
+                                </label></li>
+                            <li class="menu-element_check__processor"><label>
+                                    <input id="qwe" type="checkbox" name="screen" value="yes"><span
+                                        class="choice_wrap">NVIDIA® GeForce® MX330</span>
+                                </label></li>
+                            <li class="menu-element_check__processor"><label>
+                                    <input id="qwe" type="checkbox" name="screen" value="yes"><span
+                                        class="choice_wrap">NVIDIA® GeForce® MX330</span>
+                                </label></li>
+                            <li class="menu-element_check__processor"><label>
+                                    <input id="qwe" type="checkbox" name="screen" value="yes"><span
+                                        class="choice_wrap">NVIDIA® GeForce® MX330</span>
+                                </label></li>
+                        </ul>
+                    </div>
+                    <div id="five_paragraph" class="choice-btn">
+                        <button id="five_btn" class="choice__processor">Объем накопителя </button>
+                        <ul id="five_myDropdown" class="menu-element_nav">
+                            <li class="menu-element_check__processor"><label>
+                                    <input id="qwe" type="checkbox" name="screen" value="yes"><span
+                                        class="choice_wrap">128 GB</span>
+                                </label></li>
+                            <li class="menu-element_check__processor"><label>
+                                    <input id="qwe" type="checkbox" name="screen" value="yes"><span
+                                        class="choice_wrap">256 GB</span>
+                                </label></li>
+                            <li class="menu-element_check__processor"><label>
+                                    <input id="qwe" type="checkbox" name="screen" value="yes"><span
+                                        class="choice_wrap">512 GB</span>
+                                </label></li>
+                            <li class="menu-element_check__processor"><label>
+                                    <input id="qwe" type="checkbox" name="screen" value="yes"><span
+                                        class="choice_wrap">1 TB</span>
+                                </label></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="wrap__catalogue__list__sort">
+                    <button class="btn__list">Сортировать по
+                        <img src="./img/signs/arr.svg" alt="">
+                    </button>
+                    <div class="wrap__catalogue__list__cards">
+                        <div class="wrap__catalogue__list__cards_item del">
+                            <div class="common__compare">
+                                <img src="./img/compare.png" alt="">
+                                <h5>Asus Zenbook Pro 16X QLED (UX7602)</h5>
+                                <ul class="wrap__catalogue__list__text">
+                                    <li class="wrap__catalogue__list__ch">Разрешение экрана: HD+ 16:10 (2560 x
+                                        1600);</li>
+                                    <li class="wrap__catalogue__list__ch">Диагональ экрана: 24’ ;</li>
+                                    <li class="wrap__catalogue__list__ch">Процессор: NVIDIA®  <p class="wrapping">GeForce RTX™ 4070
+                                        Laptop GPU;</p></li>
+                                </ul>
+                                <a href="/card.html" class="btn__compare__more">Подробнее</a>
+                                
+                                <label>
+                                    <input id="qwe" type="checkbox" name="screen" value="yes"><span
+                                        class="choice_wrap_sensor">Сравнить</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="wrap__catalogue__list__cards_item del">
+                            <div class="common__compare">
+                                <img src="./img/compare.png" alt="">
+                                <h5>Asus Zenbook Pro 16X QLED (UX7602)</h5>
+                                <ul class="wrap__catalogue__list__text">
+                                    <li class="wrap__catalogue__list__ch">Разрешение экрана: HD+ 16:10 (2560 x
+                                        1600);</li>
+                                    <li class="wrap__catalogue__list__ch">Диагональ экрана: 24’ ;</li>
+                                    <li class="wrap__catalogue__list__ch">Процессор: NVIDIA®  <p class="wrapping">GeForce RTX™ 4070
+                                        Laptop GPU;</p></li>
+                                </ul>
+                                <a href="/card.html" class="btn__compare__more">Подробнее</a>
+                                <label>
+                                    <input id="qwe" type="checkbox" name="screen" value="yes"><span
+                                        class="choice_wrap_sensor">Сравнить</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="wrap__catalogue__list__cards_item del">
+                            <div class="common__compare">
+                                <img src="./img/compare.png" alt="">
+                                <h5>Asus Zenbook Pro 16X QLED (UX7602)</h5>
+                                <ul class="wrap__catalogue__list__text">
+                                    <li class="wrap__catalogue__list__ch">Разрешение экрана: HD+ 16:10 (2560 x
+                                        1600);</li>
+                                    <li class="wrap__catalogue__list__ch">Диагональ экрана: 24’ ;</li>
+                                    <li class="wrap__catalogue__list__ch">Процессор: NVIDIA®  <p class="wrapping">GeForce RTX™ 4070
+                                        Laptop GPU;</p></li>
+                                </ul>
+                                <a href="/card.html" class="btn__compare__more">Подробнее</a>
+                                <label>
+                                    <input id="qwe" type="checkbox" name="screen" value="yes"><span
+                                        class="choice_wrap_sensor">Сравнить</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="wrap__catalogue__list__cards_item del">
+                            <div class="common__compare">
+                                <img src="./img/compare.png" alt="">
+                                <h5>Asus Zenbook Pro 16X QLED (UX7602)</h5>
+                                <ul class="wrap__catalogue__list__text">
+                                    <li class="wrap__catalogue__list__ch">Разрешение экрана: HD+ 16:10 (2560 x
+                                        1600);</li>
+                                    <li class="wrap__catalogue__list__ch">Диагональ экрана: 24’ ;</li>
+                                    <li class="wrap__catalogue__list__ch">Процессор: NVIDIA®  <p class="wrapping">GeForce RTX™ 4070
+                                        Laptop GPU;</p></li>
+                                </ul>
+                                <a href="/card.html" class="btn__compare__more">Подробнее</a>
+                                <label>
+                                    <input id="qwe" type="checkbox" name="screen" value="yes"><span
+                                        class="choice_wrap_sensor">Сравнить</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="wrap__catalogue__list__cards_item del">
+                            <div class="common__compare">
+                                <img src="./img/compare.png" alt="">
+                                <h5>Asus Zenbook Pro 16X QLED (UX7602)</h5>
+                                <ul class="wrap__catalogue__list__text">
+                                    <li class="wrap__catalogue__list__ch">Разрешение экрана: HD+ 16:10 (2560 x
+                                        1600);</li>
+                                    <li class="wrap__catalogue__list__ch">Диагональ экрана: 24’ ;</li>
+                                    <li class="wrap__catalogue__list__ch">Процессор: NVIDIA®  <p class="wrapping">GeForce RTX™ 4070
+                                        Laptop GPU;</p></li>
+                                </ul>
+                                <a href="/card.html" class="btn__compare__more">Подробнее</a>
+                                <label>
+                                    <input id="qwe" type="checkbox" name="screen" value="yes"><span
+                                        class="choice_wrap_sensor">Сравнить</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="wrap__catalogue__list__cards_item del">
+                            <div class="common__compare">
+                                <img src="./img/compare.png" alt="">
+                                <h5>Asus Zenbook Pro 16X QLED (UX7602)</h5>
+                                <ul class="wrap__catalogue__list__text">
+                                    <li class="wrap__catalogue__list__ch">Разрешение экрана: HD+ 16:10 (2560 x
+                                        1600);</li>
+                                    <li class="wrap__catalogue__list__ch">Диагональ экрана: 24’ ;</li>
+                                    <li class="wrap__catalogue__list__ch">Процессор: NVIDIA®  <p class="wrapping">GeForce RTX™ 4070
+                                        Laptop GPU;</p></li>
+                                </ul>
+                                <a href="/card.html" class="btn__compare__more">Подробнее</a>
+                                <label>
+                                    <input id="qwe" type="checkbox" name="screen" value="yes"><span
+                                        class="choice_wrap_sensor">Сравнить</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="wrap__catalogue__list__cards_item">
+                            <div class="common__compare">
+                                <img src="./img/compare.png" alt="">
+                                <h5>Asus Zenbook Pro 16X QLED (UX7602)</h5>
+                                <ul class="wrap__catalogue__list__text">
+                                    <li class="wrap__catalogue__list__ch">Разрешение экрана: HD+ 16:10 (2560 x
+                                        1600);</li>
+                                    <li class="wrap__catalogue__list__ch">Диагональ экрана: 24’ ;</li>
+                                    <li class="wrap__catalogue__list__ch">Процессор: NVIDIA®  <p class="wrapping">GeForce RTX™ 4070
+                                        Laptop GPU;</p></li>
+                                </ul>
+                                <a href="/card.html" class="btn__compare__more">Подробнее</a>
+                                <label>
+                                    <input id="qwe" type="checkbox" name="screen" value="yes"><span
+                                        class="choice_wrap_sensor">Сравнить</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="wrap__catalogue__list__cards_item">
+                            <div class="common__compare">
+                                <img src="./img/compare.png" alt="">
+                                <h5>Asus Zenbook Pro 16X QLED (UX7602)</h5>
+                                <ul class="wrap__catalogue__list__text">
+                                    <li class="wrap__catalogue__list__ch">Разрешение экрана: HD+ 16:10 (2560 x
+                                        1600);</li>
+                                    <li class="wrap__catalogue__list__ch">Диагональ экрана: 24’ ;</li>
+                                    <li class="wrap__catalogue__list__ch">Процессор: NVIDIA®  <p class="wrapping">GeForce RTX™ 4070
+                                        Laptop GPU;</p></li>>
+                                </ul>
+                                <a href="/card.html" class="btn__compare__more">Подробнее</a>
+                                <label>
+                                    <input id="qwe" type="checkbox" name="screen" value="yes"><span
+                                        class="choice_wrap_sensor">Сравнить</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="wrap__catalogue__list__cards_item">
+                            <div class="common__compare">
+                                <img src="./img/compare.png" alt="">
+                                <h5>Asus Zenbook Pro 16X QLED (UX7602)</h5>
+                                <ul class="wrap__catalogue__list__text">
+                                    <li class="wrap__catalogue__list__ch">Разрешение экрана: HD+ 16:10 (2560 x
+                                        1600);</li>
+                                    <li class="wrap__catalogue__list__ch">Диагональ экрана: 24’ ;</li>
+                                    <li class="wrap__catalogue__list__ch">Процессор: NVIDIA®  <p class="wrapping">GeForce RTX™ 4070
+                                        Laptop GPU;</p></li>
+                                </ul>
+                                <a href="/card.html" class="btn__compare__more">Подробнее</a>
+                                <label>
+                                    <input id="qwe" type="checkbox" name="screen" value="yes"><span
+                                        class="choice_wrap_sensor">Сравнить</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="page_numbers">
+                <a href="/catalogue.html" class="blue_page active">1</a>
+                <span class="white_page">2</span>
+                <span class="white_page-3">3</span>
+                <img src="./img/signs/arr.svg" alt="">
+
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <nav class="footer-nav">
+            <div class="img-logo">
+                <a href="/index.html"><img src="./img/logo-white.png" alt="logo"></a>
+            </div>
+
+            <ul class="nav-list-about">
+                <div class="footer-nav-list_btn add">
+
+                    <button  class="footer-nav-list_title">Продукция</button>
+                    <ul id="footer_myDropdown_prod" class="footer-list_nav">
+                        <li class="nav-item"><a href="/card.html" class="nav-link">VivoBook</a></li>
+                        <li class="nav-item"><a href="/card.html" class="nav-link">ZenBook</a></li>
+                        <li class="nav-item"><a href="/card.html" class="nav-link">ExpertBook</a></li>
+                        <li class="nav-item"><a href="/card.html" class="nav-link">ProArt StudioBook</a>
+                        </li>
+                        <li class="nav-item"><a href="/card.html" class="nav-link">TUF</a></li>
+                        <li class="nav-item"><a href="/card.html" class="nav-link">ROG</a></li>
+                    </ul>
+            </ul>
+            </div>
+            </ul>
+            <ul class="list">
+                <button id="btn-footer-btn" class="footer-nav-list_title-btn">Продукция</button>
+                <li class="nav-item"><a href="/card.html" class="nav-link">VivoBook</a></li>
+                <li class="nav-item"><a href="/card.html" class="nav-link">ZenBook</a></li>
+                <li class="nav-item"><a href="/card.html" class="nav-link">ExpertBook</a></li>
+                <li class="nav-item"><a href="/card.html" class="nav-link">ProArt StudioBook</a>
+                </li>
+                <li class="nav-item"><a href="/card.html" class="nav-link">TUF</a></li>
+                <li class="nav-item"><a href="/card.html" class="nav-link">ROG</a></li>
+            </ul>
+            </ul>
+            <ul class="nav-list-about">
+                <div id="brand" class="footer-nav-list_btn add">
+                    <button id="btn-footer_brend" class="footer-nav-list_title">О бренде</button>
+                    <ul id="footer_myDropdown_brand" class="footer-list_nav">
+                        <li class="nav-item"><a href="/aboutcompany.html" class="nav-link">История Asus</a>
+                        </li>
+                        <li class="nav-item"><a href="/news.html" class="nav-link">Новости</a></li>
+                    </ul>
+                </div>
+            </ul>
+            <ul>
+                <button id="btn-footer-btn" class="footer-nav-list_title-btn">О бренде</button>
+                <li class="nav-item missed"><a href="/aboutcompany.html" class="nav-link">История Asus</a>
+                </li>
+                <li class="nav-item missed"><a href="/news.html" class="nav-link">Новости</a></li>
+            </ul>
+            <ul class="nav-list-service">
+                <li class="nav-item-headling"><a href="/service.html" class="nav-item-headling">Сервисные центры</a>
+                </li>
+                <li class="nav-item"><a href="/shops.html" class="nav-link">Где купить</a></li>
+
+            </ul>
+            <ul class="nav-list-about">
+                <div id="feedback" class="footer-nav-list_btn add ">
+                    <button id="btn-footer_feedback" class="footer-nav-list_title">Обратная связь</button>
+                    <ul id="footer_myDropdown_feedback" class="footer-list_nav">
+                        <div class="size_block">
+                            <label> <input class="size_block_input" type="text" id="name" name="name"
+                                    placeholder="ФИО:"> </label>
+                            <label><input class="size_block_input" type="text" id="name" name="name"
+                                    placeholder="E-mail"> </label>
+                            <label><input class="size_block_input" type="text" id="name" name="name"
+                                    placeholder="Телефон"> </label>
+                            <label><input class="size_block_input_white" type="submit" id="name" name="name"
+                                    placeholder="Отправить"> </label>
+                        </div>
+                    </ul>
+                </div>
+            </ul>
+
+
+            <div class="btn-feedback">
+                <button class="button-feedback">Обратная связь</button>
+            </div>
+        </nav>
+        <p class="rights">©ASUSTeK Computer Inc. Все права защищены</p>
+
+        <div class="box" id="box">
+            <div class="box-inner">
+            </div>
+            <form id="feedbackForm">
+                <h2 class="title">Заголовок</h2>
+                <div class="text"> <span class="modal__form__title">Спасибо за заявку!</span>
+                    <p class="modal__form__text">Наши менеджеры свяжутся с Вами в ближайшее время</p>
+                </div>
+                <div class="rows">
+                    <label for="name"></label>
+                    <input type="text" id="name" name="name" placeholder="ФИО:" required>
+                    <label for="number"></label>
+                    <input type="text" id="number" name="number" placeholder="Номер:">
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" placeholder="E-mail:">
+                    <label for="message"></label>
+                    <textarea id="message" name="message" placeholder="Комментарий:"></textarea>
+                    <button id="btn__form" type="submit">Обратная связь</button>
+                </div>
+                <div class="modal__close"></div>
+            </form>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Raleway;
+    background-color: #F4F4F4;
+    overflow: auto;
+    position: relative;
+    height: 100%;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.wr-search_inp {
+    height: 40px;
+}
+
+.search-loop {
+    max-width: 20px;
+}
+.close-search{
+    max-width: 20px;
+}
+@media (max-width: 360px) {
+    .main {
+        max-width: 313px;
+        min-height: 722px;
+        margin: 0 auto;
+    }
+
+}
+
+.main__wrapper {
+    max-width: 1440px;
+    min-height: 945px;
+    background-color: #F4F4F4;
+    margin: 0 auto;
+
+}
+
+@media (max-width: 360px) {
+    .main__wrapper {
+        max-width: 313px;
+        min-height: 722px;
+        margin: 0 auto;
+    }
+
+}
+
+.main__wrapper__error__text {
+    padding-left: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+@media (max-width: 360px) {
+    .main__wrapper__error__text {
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 313px;
+        margin: 0 auto;
+    }
+
+}
+
+.main__wrapper__error__img {
+    max-width: 574px;
+    min-height: 636px;
+
+
+}
+
+@media (max-width: 360px) {
+    .main__wrapper__error__img {
+        max-width: 361px;
+        min-height: 350px;
+    }
+
+}
+
+.main__wrapper__error {
+    max-width: 1440px;
+    min-height: 945px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media (max-width: 360px) {
+    .main__wrapper__error {
+        flex-direction: column-reverse;
+        min-height: 722px;
+    }
+
+}
+
+.main__tilte__error {
+
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Raleway;
+    font-size: 160px;
+    font-weight: 600;
+    line-height: 165%;
+
+
+}
+
+@media (max-width: 360px) {
+    .main__tilte__error {
+        font-size: 100px;
+        padding-left: 0;
+        margin: 0 auto;
+    }
+
+}
+
+.main__text__error {
+    margin-top: 40px;
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Raleway;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 165%;
+
+}
+
+@media (max-width: 360px) {
+    .main__text__error {
+        font-size: 30px;
+        padding-left: 0;
+        margin-top: 10px;
+    }
+
+}
+
+.main__error__btn {
+    text-decoration: none;
+    margin-top: 40px;
+    display: flex;
+    width: 226px;
+    height: 60px;
+    padding: 20px 25px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border-top: 1px solid rgba(217, 217, 217, 0.79);
+    border-right: 1px solid rgba(217, 217, 217, 0.79);
+    border-bottom: 3px solid rgba(217, 217, 217, 0.79);
+    border-left: 1px solid rgba(217, 217, 217, 0.79);
+    background: #FCFCFC;
+    color: #404040;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+img {
+    width: 100%;
+}
+
+@media (max-width: 360px) {
+    .main__error__btn {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+}

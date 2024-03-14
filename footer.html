@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/grids.css">
+    <link rel="stylesheet" href="./assets/footer.css">
+    <script defer src="/js/footer.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <footer class="footer">
+        <nav class="footer-nav">
+            <div class="img-logo">
+                <a href="/index.html"><img src="./img/logo-white.png" alt="logo"></a>
+            </div>
+
+            <ul class="nav-list-about">
+                <div class="footer-nav-list_btn add">
+
+                    <button  class="footer-nav-list_title">Продукция</button>
+                    <ul id="footer_myDropdown_prod" class="footer-list_nav">
+                        <li class="nav-item"><a href="/card.html" class="nav-link">VivoBook</a></li>
+                        <li class="nav-item"><a href="/card.html" class="nav-link">ZenBook</a></li>
+                        <li class="nav-item"><a href="/card.html" class="nav-link">ExpertBook</a></li>
+                        <li class="nav-item"><a href="/card.html" class="nav-link">ProArt StudioBook</a>
+                        </li>
+                        <li class="nav-item"><a href="/card.html" class="nav-link">TUF</a></li>
+                        <li class="nav-item"><a href="/card.html" class="nav-link">ROG</a></li>
+                    </ul>
+            </ul>
+            </div>
+            </ul>
+            <ul class="list">
+                <button id="btn-footer-btn" class="footer-nav-list_title-btn">Продукция</button>
+                <li class="nav-item"><a href="/card.html" class="nav-link">VivoBook</a></li>
+                <li class="nav-item"><a href="/card.html" class="nav-link">ZenBook</a></li>
+                <li class="nav-item"><a href="/card.html" class="nav-link">ExpertBook</a></li>
+                <li class="nav-item"><a href="/card.html" class="nav-link">ProArt StudioBook</a>
+                </li>
+                <li class="nav-item"><a href="/card.html" class="nav-link">TUF</a></li>
+                <li class="nav-item"><a href="/card.html" class="nav-link">ROG</a></li>
+            </ul>
+            </ul>
+            <ul class="nav-list-about">
+                <div id="brand" class="footer-nav-list_btn add">
+                    <button id="btn-footer_brend" class="footer-nav-list_title">О бренде</button>
+                    <ul id="footer_myDropdown_brand" class="footer-list_nav">
+                        <li class="nav-item"><a href="/aboutcompany.html" class="nav-link">История Asus</a>
+                        </li>
+                        <li class="nav-item"><a href="/news.html" class="nav-link">Новости</a></li>
+                    </ul>
+                </div>
+            </ul>
+            <ul>
+                <button id="btn-footer-btn" class="footer-nav-list_title-btn">О бренде</button>
+                <li class="nav-item missed"><a href="/aboutcompany.html" class="nav-link">История Asus</a>
+                </li>
+                <li class="nav-item missed"><a href="/news.html" class="nav-link">Новости</a></li>
+            </ul>
+            <ul class="nav-list-service">
+                <li class="nav-item-headling"><a href="/service.html" class="nav-item-headling">Сервисные центры</a>
+                </li>
+                <li class="nav-item"><a href="/shops.html" class="nav-link">Где купить</a></li>
+
+            </ul>
+            <ul class="nav-list-about">
+                <div id="feedback" class="footer-nav-list_btn add ">
+                    <button id="btn-footer_feedback" class="footer-nav-list_title">Обратная связь</button>
+                    <ul id="footer_myDropdown_feedback" class="footer-list_nav">
+                        <div class="size_block">
+                            <label> <input class="size_block_input" type="text" id="name" name="name"
+                                    placeholder="ФИО:"> </label>
+                            <label><input class="size_block_input" type="text" id="name" name="name"
+                                    placeholder="E-mail"> </label>
+                            <label><input class="size_block_input" type="text" id="name" name="name"
+                                    placeholder="Телефон"> </label>
+                            <label><input class="size_block_input_white" type="submit" id="name" name="name"
+                                    placeholder="Отправить"> </label>
+                        </div>
+                    </ul>
+                </div>
+            </ul>
+
+
+            <div class="btn-feedback">
+                <button class="button-feedback">Обратная связь</button>
+            </div>
+        </nav>
+        <p class="rights">©ASUSTeK Computer Inc. Все права защищены</p>
+
+        <div class="box" id="box">
+            <div class="box-inner">
+            </div>
+            <form id="feedbackForm">
+                <h2 class="title">Заголовок</h2>
+                <div class="text"> <span class="modal__form__title">Спасибо за заявку!</span>
+                    <p class="modal__form__text">Наши менеджеры свяжутся с Вами в ближайшее время</p>
+                </div>
+                <div class="rows">
+                    <label for="name"></label>
+                    <input type="text" id="name" name="name" placeholder="ФИО:" required>
+                    <label for="number"></label>
+                    <input type="text" id="number" name="number" placeholder="Номер:">
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" placeholder="E-mail:">
+                    <label for="message"></label>
+                    <textarea id="message" name="message" placeholder="Комментарий:"></textarea>
+                    <button id="btn__form" type="submit">Обратная связь</button>
+                </div>
+                <div class="modal__close"></div>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>

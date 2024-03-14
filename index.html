@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/grids.css">
+    <link rel="stylesheet" href="./assets/header.css">
+    <link rel="stylesheet" href="./assets/footer.css">
+    <link rel="stylesheet" href="./assets/test.css">
+    <link rel="stylesheet" href="./assets/slider.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>main</title>
+    <script defer src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="/js/index.js"></script>
+    <script defer src="/js/slider.js"></script>
+    <script defer src="./js/mainSwiper.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="burger-menu">
+                <img class="burger-menu-img" src="./img/burger-menu.png" alt="menu">
+            </div>
+            <div class="burger-close"> <img class="burger-menu-img" src="./img/signs/close burg.svg" alt="menu"></div>
+            <div class="logo">
+                <a href="/index.html"> <img src="./img/logo.png" alt="logo"></a>
+            </div>
+            <ul class="container__pages">
+                <div class="container__pages__wrap">
+                    <a href="/catalogue.html" class="btn">Ноутбуки</a>
+                    <div class="dropdown">
+                        <div class="btn_popper">
+                            <img src="./img/signs/nav_arrow.svg" alt="">
+                        </div>
+                        <div class="dropdown-content">
+                            <a href="/card.html">VivoBook</a>
+                            <a href="/card.html">Zenbook</a>
+                            <a href="/card.html">ExpertBook</a>
+                            <a href="/card.html">ProArt StudioBook</a>
+                            <a href="/card.html">TUF</a>
+                            <a href="/card.html">ROG</a>
+                        </div>
+                    </div>
+                </div>
+                <li class="pages"><a href="/aboutcompany.html">О бренде</a>
+                </li>
+                <li class="pages"><a href="/service.html">Сервисный центр</a>
+                </li>
+                <li class="pages"><a href="/shops.html">Где купить</a>
+                </li>
+            </ul>
+            <div class="wr-search">
+                <div class="search">
+                    <img class="search__img" src="./img/search.svg" alt="search">
+                </div>
+
+            </div>
+        </div>
+        <div class="wrapper-form_search">
+            <form class="search-sign">
+                <div class="wr-search_inp">
+                    <input id="search-input" class="search-sign_inp" type="search" placeholder="Поиск">
+                    <img class="search-loop" src="./img/signs/search_wh.svg" alt="">
+                    <img class="close-search" src="./img/signs/х(1).svg" alt="">
+                </div>
+            </form>
+            <ul class="search-list">
+                <li class="search-list_item">Товары
+                    <a class="search-list_item_name" href="/card.html">Asus Zenbook Pro Duo UX581</a>
+                    <a class="search-list_item_name" href="/card.html">Asus Zenbook 13 UX325</a>
+                    <a class="search-list_item_name" href="/card.html">Asus Zenbook 14 Flip OLED (UX1257)</a>
+                </li>
+                <li class="search-list_item">Другие товары
+                    <a class="search-list_item_name" href="/card.html">VivoBook</a>
+                    <a class="search-list_item_name" href="/card.html">ZenBook</a>
+                    <a class="search-list_item_name" href="/card.html">ExpertBook</a>
+                    <a class="search-list_item_name" href="/card.html">ProArt StudioBook</a>
+                    <a class="search-list_item_name" href="/card.html">TUF</a>
+                    <a class="search-list_item_name" href="/card.html">ROG</a>
+                </li>
+                <li class="search-list_item_wrap"> <a class="search-list_item_link" href="/card.html">Перейти в
+                        каталог</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__content">
+            <div class="cont">
+                <div class="swiper mySwiper5">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide itemOne">
+                            <div class="wr-all">
+                                <h1 class="swiper__title">ROG Zephyrus G16</h1>
+                                <h2 class="swiper__text">
+                                    Мощный, универсальный игровой ноутбук
+                                </h2>
+                                <div class="wrapper_about"> <a class="about" href="/catalogue.html">Подробнее</a></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide itemTwo">
+                            <div class="wr_itemtwo__text">
+                                <h4 class="itemtwo_title">ROG Zephyrus G16</р>
+                                    <h2 class="itemtwo_text">Лучшие ноутбуки ASUS для творческой работы и креатива
+                                    </h2>
+                                    <div class="wrapper_about"> <a class="about" href="/catalogue.html">Подробнее</a>
+                                    </div>
+                            </div>
+                            <img id="content__img" src="./img/ProArt series.png" alt="">
+                        </div>
+                        <div class="swiper-slide itemThree">
+                            <div class="content__common__text">
+                                <h4 class="itemthree__title">ProArt StudioBook Pro 16 OLED</h4>
+                                <h4 class="itemthree__text">
+                                    Мощный, универсальный игровой ноутбук
+                                </h4>
+                                <div class="wrapper_about_blue"> <a class="about_blue"
+                                        href="/catalogue.html">Подробнее</a></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide itemFour">
+                            <div class="img_four"><img src="./img/proart_four.png" alt=""></div>
+                            <div class="content__text__four">
+                                <h2 class="content__itemfour__blue">ProArt StudioBook Pro 16 OLED</h2>
+                                <h4 class="item__four__text">
+                                    Лучшие ноутбуки ASUS для творческой работы и креатива
+                                </h4>
+                                <div class="wrapper_about_four"> <a class="about_four"
+                                        href="/catalogue.html">Подробнее</a></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide itemFive">
+                            <div class="itemfive_text">
+                                <h5 class="itemfive_title">TUF GAMING</h5>
+                                <h5 class="itemfive_text_title">
+                                    Идеальный выбор для современных игр
+                                </h5>
+                                <div class="itemfive_more_wrapper"> <a class="itemfive_more"
+                                        href="/catalogue.html">Подробнее</a></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide itemSix">
+                            <div class="itemsix_text">
+                                <h5 class="itemsix_title">TUF GAMING</h5>
+                                <h5 class="itemsix_text_title">
+                                    Идеальный выбор для современных игр
+                                </h5>
+                                <div class="itemsix_more_wrapper"> <a class="itemsix_more"
+                                        href="/catalogue.html">Подробнее</a></div>
+                            </div>
+                            <div class="itemsix__img"><img class="itemsix__img__pic"
+                                    src="./img/img_search-removebg-preview.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <h3>
+                Линейки ноутбуков Asus
+            </h3>
+            <div class="container__main">
+                <div class="container_gr">
+                    <div class="boxone"><a href="/card.html" class="main__content__cards_big_headling">
+                            ProArt StudioBook
+                        </a>
+                        <p class="main__content__cards_big_description">
+                            Серия создана для реализации креативных и творческих идей. Отличается мощностью, большим
+                            объемом
+                            оперативной памяти.
+                        </p>
+                        <div class="common_wrapper">
+                            <div class="main__content__cards_big_about_wr_img">
+                                <div><a class="main__content__cards_big_about_text" href="/card.html">Подробнее</a>
+                                </div>
+                                <div class="main__content__cards_big_about_common"><img
+                                        class="main__content__cards_big_about" src="./img/about.svg" alt="about">
+                                </div>
+                            </div>
+                            <img class="main__content__cards_proart" src="./img/proart.png" alt="">
+                        </div>
+                    </div>
+                    <div class="boxtwo">
+                        <div class="boxtwo__wrap">
+                            <div class="boxtwo__wrap__text">
+                                <a href="/card.html" class="main__content__cards_big_headling">
+                                    TUF
+                                </a>
+                                <p class="main__content__cards_big_description"> Ноутбуки серии TUF Gaming подходят
+                                    начинающим игрокам. Отличаются устойчивостью к нагрузкам.</p>
+
+                                <div class="main__content__cards_big_about_wr_img">
+                                    <div><a class="main__content__cards_big_about_text" href="/card.html">Подробнее</a>
+                                    </div>
+                                    <div class="main__content__cards_big_about_common"><img
+                                            class="main__content__cards_big_about" src="./img/about.svg" alt="about">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="img__tuf"><img class="main__content__cards_big_about_img"
+                                    src="./img/main img/tuf.png" alt="about">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boxthree">
+                        <div class="boxthree__wrap">
+                            <div class="boxtwo__wrap__text">
+                                <a href="/card.html" class="main__content__cards_big_headling">
+                                    ROG
+                                </a>
+                                <p class="main__content__cards_big_description"> Флагманская линейка игровых
+                                    ноутбуков.
+                                    Интересные
+                                    апгрейды делают их желанными для геймеров</p>
+                                <div class="main__content__cards_big_about_wr_img">
+                                    <div><a class="main__content__cards_big_about_text" href="/card.html">Подробнее</a>
+                                    </div>
+                                    <div class="main__content__cards_big_about_common"><img
+                                            class="main__content__cards_big_about" src="./img/about.svg" alt="about">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="img__tuf"><img class="main__content__cards_big_about_img" src="./img/rog.png"
+                                    alt="about">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boxfour">
+                        <div class="boxfour__wrap">
+                            <div class="boxtwo__wrap__text">
+                                <a href="/card.html" class="main__content__cards_big_headling">
+                                    ExpertBook
+                                </a>
+                                <p class="main__content__cards_big_description"> Ноутбуки ExpertBook отлично
+                                    подходят
+                                    для работы.
+                                    Они понравятся вам прочностью, мобильностью</p>
+                                <div class="main__content__cards_big_about_wr_img">
+                                    <div><a class="main__content__cards_big_about_text" href="/card.html">Подробнее</a>
+                                    </div>
+                                    <div class="main__content__cards_big_about_common"><img
+                                            class="main__content__cards_big_about" src="./img/about.svg" alt="about">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="img__tuf"><img class="main__content__cards_big_about_img"
+                                    src="./img/main img/expertbook.png" alt="about">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boxsix">
+                        <div class="boxsix__wrap">
+                            <div class="boxsix__wrap__text">
+                                <a href="/card.html" class="main__content__cards_big_headling">
+                                    VivoBook
+                                </a>
+                                <p class="main__content__cards_big_description_vivobook">
+                                    Линейка ноутбуков, подходящих для дома. VivoBook отличаются производительностью
+                                    и
+                                    яркостью в
+                                    дизайне.
+                                </p>
+                                <div class="common_wrapper">
+                                    <div class="main__content__cards_big_about_wr_img">
+                                        <div><a class="main__content__cards_big_about_text"
+                                                href="/card.html">Подробнее</a></div>
+                                        <div class="main__content__cards_big_about_common"><img
+                                                class="main__content__cards_big_about" src="./img/about.svg"
+                                                alt="about">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="common__wrapper__img"><img class="main__content__cards_proart"
+                                        src="./img/main img/vivobook.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boxfive">
+                        <div class="boxfive__wrap">
+                            <div class="boxtwo__wrap__text">
+                                <a href="/card.html" class="main__content__cards_big_headling">
+                                    ZenBook
+                                </a>
+                                <p class="main__content__cards_big_description"> Серию Zenbook отличает статусность
+                                    и
+                                    премиальность.
+                                    Их любят за легкий вес и тонкость корпуса.</p>
+                                <div class="main__content__cards_big_about_wr_img">
+                                    <div><a class="main__content__cards_big_about_text" href="/card.html">Подробнее</a>
+                                    </div>
+                                    <div class="main__content__cards_big_about_common"><img
+                                            class="main__content__cards_big_about" src="./img/about.svg" alt="about">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="img__tuf"><img class="main__content__cards_big_about_img"
+                                    src="./img/main img/zenbook (2).png" alt="about">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="news">
+            <div class="wr-slider-news">
+                <div class="wr-slider-news__title"> <a class="wr-slider-news__title" href="/news.html">Новости</a></div>
+                <div class="swiper mySwiper news-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide news-first-slide">
+                            <div class="swiper-slide__img">
+                                <p class="swiper-slide__headling">Важное обновление для процессоров Ryzen™ 7000-й серии
+                                    на материнских платах ASUS AM5</p>
+                                <p class="swiper-slide__paragraph"> Данное обновление является продолжением наших шагов
+                                    по решению возникшей проблемы.</p>
+                                <p class="swiper-slide__paragraph_hide">Компании ASUS и AMD совместно работают над определением новых правил для обновлений
+                                    BIOS. По мере необходимости будут выпускаться дальнейшие обновления.</p>
+                                <a class="swiper-slide__link" href="/news.html">Читать далее</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide news-second-slide">
+                            <div class="swiper-slide__img">
+                                <p class="swiper-slide__headling">Важное обновление для процессоров Ryzen™ 7000-й серии
+                                    на материнских платах ASUS AM5</p>
+                                <p class="swiper-slide__paragraph"> Данное обновление является продолжением наших шагов
+                                    по решению возникшей проблемы.</p>
+                                <p class="swiper-slide__paragraph_hide">Компании ASUS и AMD совместно работают над определением новых правил для обновлений
+                                    BIOS. По мере необходимости будут выпускаться дальнейшие обновления.</p>
+                                <a class="swiper-slide__link" href="/news.html">Читать далее</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide news-third-slide">
+                            <div class="swiper-slide__img">
+                                <p class="swiper-slide__headling">Важное обновление для процессоров Ryzen™ 7000-й серии
+                                    на материнских платах ASUS AM5</p>
+                                <p class="swiper-slide__paragraph"> Данное обновление является продолжением наших шагов
+                                    по решению возникшей проблемы.</p>
+                                <p class="swiper-slide__paragraph_hide">Компании ASUS и AMD совместно работают над определением новых правил для обновлений
+                                    BIOS. По мере необходимости будут выпускаться дальнейшие обновления.</p>
+                                <a class="swiper-slide__link" href="/news.html">Читать далее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="arrow-position">
+                        <div class="swiper-button-prev main__swiper_left"></div>
+                        <div class="swiper-button-next main__swiper_right"></div>
+                    </div>
+                </div>
+                <div class="wr-slider-news__title_bottom"> <a class="wr-slider-news__title_bottom" href="/news.html">Все
+                        новости Asus</a></div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <nav class="footer-nav">
+            <div class="img-logo">
+                <a href="/index.html"><img src="./img/logo-white.png" alt="logo"></a>
+            </div>
+
+            <ul class="nav-list-about">
+                <div class="footer-nav-list_btn add">
+
+                    <button  class="footer-nav-list_title">Продукция</button>
+                    <ul id="footer_myDropdown_prod" class="footer-list_nav">
+                        <li class="nav-item"><a href="/card.html" class="nav-link">VivoBook</a></li>
+                        <li class="nav-item"><a href="/card.html" class="nav-link">ZenBook</a></li>
+                        <li class="nav-item"><a href="/card.html" class="nav-link">ExpertBook</a></li>
+                        <li class="nav-item"><a href="/card.html" class="nav-link">ProArt StudioBook</a>
+                        </li>
+                        <li class="nav-item"><a href="/card.html" class="nav-link">TUF</a></li>
+                        <li class="nav-item"><a href="/card.html" class="nav-link">ROG</a></li>
+                    </ul>
+            </ul>
+            </div>
+            </ul>
+            <ul class="list">
+                <button id="btn-footer-btn" class="footer-nav-list_title-btn">Продукция</button>
+                <li class="nav-item"><a href="/card.html" class="nav-link">VivoBook</a></li>
+                <li class="nav-item"><a href="/card.html" class="nav-link">ZenBook</a></li>
+                <li class="nav-item"><a href="/card.html" class="nav-link">ExpertBook</a></li>
+                <li class="nav-item"><a href="/card.html" class="nav-link">ProArt StudioBook</a>
+                </li>
+                <li class="nav-item"><a href="/card.html" class="nav-link">TUF</a></li>
+                <li class="nav-item"><a href="/card.html" class="nav-link">ROG</a></li>
+            </ul>
+            </ul>
+            <ul class="nav-list-about">
+                <div id="brand" class="footer-nav-list_btn add">
+                    <button id="btn-footer_brend" class="footer-nav-list_title">О бренде</button>
+                    <ul id="footer_myDropdown_brand" class="footer-list_nav">
+                        <li class="nav-item"><a href="/aboutcompany.html" class="nav-link">История Asus</a>
+                        </li>
+                        <li class="nav-item"><a href="/news.html" class="nav-link">Новости</a></li>
+                    </ul>
+                </div>
+            </ul>
+            <ul>
+                <button id="btn-footer-btn" class="footer-nav-list_title-btn">О бренде</button>
+                <li class="nav-item missed"><a href="/aboutcompany.html" class="nav-link">История Asus</a>
+                </li>
+                <li class="nav-item missed"><a href="/news.html" class="nav-link">Новости</a></li>
+            </ul>
+            <ul class="nav-list-service">
+                <li class="nav-item-headling"><a href="/service.html" class="nav-item-headling">Сервисные центры</a>
+                </li>
+                <li class="nav-item"><a href="/shops.html" class="nav-link">Где купить</a></li>
+
+            </ul>
+            <ul class="nav-list-about">
+                <div id="feedback" class="footer-nav-list_btn add ">
+                    <button id="btn-footer_feedback" class="footer-nav-list_title">Обратная связь</button>
+                    <ul id="footer_myDropdown_feedback" class="footer-list_nav">
+                        <div class="size_block">
+                            <label> <input class="size_block_input" type="text" id="name" name="name"
+                                    placeholder="ФИО:"> </label>
+                            <label><input class="size_block_input" type="text" id="name" name="name"
+                                    placeholder="E-mail"> </label>
+                            <label><input class="size_block_input" type="text" id="name" name="name"
+                                    placeholder="Телефон"> </label>
+                            <label><input class="size_block_input_white" type="submit" id="name" name="name"
+                                    placeholder="Отправить"> </label>
+                        </div>
+                    </ul>
+                </div>
+            </ul>
+
+
+            <div class="btn-feedback">
+                <button class="button-feedback">Обратная связь</button>
+            </div>
+        </nav>
+        <p class="rights">©ASUSTeK Computer Inc. Все права защищены</p>
+
+        <div class="box" id="box">
+            <div class="box-inner">
+            </div>
+            <form id="feedbackForm">
+                <h2 class="title">Заголовок</h2>
+                <div class="text"> <span class="modal__form__title">Спасибо за заявку!</span>
+                    <p class="modal__form__text">Наши менеджеры свяжутся с Вами в ближайшее время</p>
+                </div>
+                <div class="rows">
+                    <label for="name"></label>
+                    <input type="text" id="name" name="name" placeholder="ФИО:" required>
+                    <label for="number"></label>
+                    <input type="text" id="number" name="number" placeholder="Номер:">
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" placeholder="E-mail:">
+                    <label for="message"></label>
+                    <textarea id="message" name="message" placeholder="Комментарий:"></textarea>
+                    <button id="btn__form" type="submit">Обратная связь</button>
+                </div>
+                <div class="modal__close"></div>
+            </form>
+        </div>
+    </footer>
+</body>
+
+</html>
